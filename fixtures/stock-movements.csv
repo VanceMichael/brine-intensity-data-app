@@ -1,0 +1,7 @@
+movement,tank,shift,lot,kind,net_kg
+X1,T1,1,L1,returned_liquid,385
+X2,T2,1,L2,returned_liquid,270
+X3,T1,2,L3,consumed_liquid,315
+X4,T3,2,L3,returned_liquid,220
+X5,T2,3,L4,consumed_liquid,190
+X6,T4,3,L4,returned_liquid,150

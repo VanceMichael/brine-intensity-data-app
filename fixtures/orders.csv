@@ -1,0 +1,4 @@
+order,client,batch,quantity_kg,min_grade,max_kwh_per_t,max_m3_per_t,state,known_shift
+O1,C01,L3,500,battery,290,24,signed,3
+O2,C02,L3,340,industrial,400,30,requested,4
+O3,C02,L4,400,industrial,400,30,requested,4

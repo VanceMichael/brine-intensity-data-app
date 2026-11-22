@@ -1,0 +1,5 @@
+id,shift,line,input_kg,finished_kg,tank_in,tank_out,reuse_kg
+L1,1,line-A,950,680,-,T1,0
+L2,1,line-B,830,590,-,T2,0
+L3,2,line-A,1100,880,T1,T3,315
+L4,3,line-B,720,600,T2,T4,190

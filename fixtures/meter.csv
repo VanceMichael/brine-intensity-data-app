@@ -1,0 +1,8 @@
+id,shift,meter,scope,opening,closing,unit,replaces
+M1,1,plant,electric,1000,1240,kWh,-
+M2,1,line-A,electric,60,122,kWh,-
+M3,2,plant,electric,0,210,kWh,M1
+M4,3,plant,electric,,,kWh,M3
+M5,3,plant,electric,210,390,kWh,M4
+W1,1,raw-water,water,42,57,m3,-
+W2,2,raw-water,water,57,73,m3,-

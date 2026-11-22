@@ -1,0 +1,112 @@
+{
+  "tables": {
+    "meter": [
+      "id",
+      "shift",
+      "meter",
+      "scope",
+      "opening",
+      "closing",
+      "unit",
+      "replaces"
+    ],
+    "production": [
+      "id",
+      "shift",
+      "line",
+      "input_kg",
+      "finished_kg",
+      "tank_in",
+      "tank_out",
+      "reuse_kg"
+    ],
+    "quality": [
+      "notice",
+      "batch",
+      "parent",
+      "quantity_kg",
+      "grade",
+      "known_shift"
+    ],
+    "orders": [
+      "order",
+      "client",
+      "batch",
+      "quantity_kg",
+      "min_grade",
+      "max_kwh_per_t",
+      "max_m3_per_t",
+      "state",
+      "known_shift"
+    ],
+    "allocation-basis": [
+      "shift",
+      "line",
+      "shared_driver",
+      "driver_amount",
+      "water_est_lower",
+      "water_est_upper",
+      "electric_est_lower",
+      "electric_est_upper"
+    ],
+    "meter-revisions": [
+      "entry",
+      "known_shift",
+      "batch_status"
+    ],
+    "stock-movements": [
+      "movement",
+      "tank",
+      "shift",
+      "lot",
+      "kind",
+      "net_kg"
+    ],
+    "releases": [
+      "document",
+      "order",
+      "quality_notice",
+      "electric_record",
+      "signed_shift",
+      "kg"
+    ]
+  },
+  "links": [
+    [
+      "meter-revisions",
+      "entry",
+      "meter",
+      "id"
+    ],
+    [
+      "stock-movements",
+      "lot",
+      "production",
+      "id"
+    ],
+    [
+      "releases",
+      "order",
+      "orders",
+      "order"
+    ],
+    [
+      "releases",
+      "quality_notice",
+      "quality",
+      "notice"
+    ],
+    [
+      "releases",
+      "electric_record",
+      "meter",
+      "id"
+    ],
+    [
+      "quality",
+      "parent",
+      "production",
+      "id"
+    ]
+  ]
+}

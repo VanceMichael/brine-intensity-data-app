@@ -1,0 +1,8 @@
+entry,known_shift,batch_status
+M1,1,read
+M2,1,read
+M3,2,read
+M4,3,missing
+M5,5,correction
+W1,1,read
+W2,2,read

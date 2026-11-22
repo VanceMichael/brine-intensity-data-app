@@ -1,0 +1,8 @@
+notice,batch,parent,quantity_kg,grade,known_shift
+Q1,L1,-,680,battery,1
+Q2,L2,-,590,industrial,1
+Q3,L3,-,880,battery,2
+Q4,L3-A,L3,580,battery,4
+Q5,L3-B,L3,300,industrial,4
+Q6,L4,-,600,pending,3
+Q7,L4,-,600,industrial,5

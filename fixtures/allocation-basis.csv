@@ -1,0 +1,5 @@
+shift,line,shared_driver,driver_amount,water_est_lower,water_est_upper,electric_est_lower,electric_est_upper
+1,line-A,operating_minutes,240,8,12,180,250
+1,line-B,operating_minutes,180,7,11,180,250
+2,line-A,operating_minutes,225,8,13,180,260
+3,line-B,operating_minutes,190,7,14,160,230
