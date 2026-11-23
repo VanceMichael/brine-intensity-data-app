@@ -8,6 +8,11 @@
   },
   "scripts": {
     "test": "node --test",
-    "check:materials": "node tools/check-materials.mjs"
+    "check:materials": "node tools/check-materials.mjs",
+    "order": "node src/cli.mjs order",
+    "stock": "node src/cli.mjs stock",
+    "client": "node src/cli.mjs client",
+    "release": "node src/cli.mjs release",
+    "replay": "node src/cli.mjs replay"
   }
 }
